@@ -23,7 +23,7 @@ const Hero = () => {
               sequence={[
                 "Taosif Bin Sadhin",
                 2000,
-                "a MERN Stack Web Developer",
+                "A MERN Stack Web Developer",
                 2000,
               ]}
               wrapper="span"
