@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <div id="home" className="">
        <div className="flex  flex-col md:flex-row justify-around items-center  px-4">
-          {/* Left div */}
+          {/* Left div */}  
       <div className="mt-20 md:mt-20 md:w-1/2 text-center md:text-left">
         <div className="space-y-4">
           <h1 className="md:text-xl lg:text-4xl font-bold leading-tight animate-fade-in-up">
