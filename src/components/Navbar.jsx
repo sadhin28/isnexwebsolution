@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 text-2xl font-bold text-blue-600">
-            <h1 className="text-white font-bold">T.B <span className="text-green-500">SADHIN</span></h1>
+            <h1 className="text-white font-bold">T.B <span className="text-green-500">SA<span>DH</span>IN</span></h1>
           </div>
 
           {/* Desktop Menu */}
