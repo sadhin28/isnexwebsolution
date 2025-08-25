@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="mt-20 md:mt-20 md:w-1/2 text-center md:text-left">
         <div className="space-y-4">
           <h1 className="md:text-xl lg:text-4xl font-bold leading-tight animate-fade-in-up">
-            Hi, I am &nbsp;
+            Hi, I Am &nbsp;
             <TypeAnimation
               sequence={[
                 "Taosif Bin Sadhin",
