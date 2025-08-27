@@ -4,6 +4,13 @@ import { TypeAnimation } from "react-type-animation";
 import ReactiveButton from "reactive-button";
 import profileImg from '../assets/sadhin.jpg'
 const Hero = () => {
+  const handleClick = () => {
+    // Open Google Drive link in a new tab
+    window.open(
+      'https://drive.google.com/file/d/16k1F98nn2ccaCO5k7LC5Cm0Lq5hnyAs_/view?usp=sharing',
+      '_blank'
+    );
+  };
       const scrollToSection = (id) => {
         console.log(id)
     const element = document.getElementById(id);
@@ -61,7 +68,7 @@ const Hero = () => {
           size="lerge"
           />
           <ReactiveButton
-         
+          onClick={handleClick}
           color="yellow"
           idleText='Download CV'
           size="lerge"
