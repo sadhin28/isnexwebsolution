@@ -30,8 +30,8 @@ const About = () => {
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 animate-fade-in-up">
                         About <span className="text-green-500">Me</span>
                     </h2>
-                    <p className="text-xl text-gray-400 text-justify text-muted-foreground max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
-                        Passionate full-stack developer with expertise in the MERN stack, dedicated to creating
+                    <p className="text-xl text-gray-400 text-justify  text-muted-foreground max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
+                        Passionate Mern-stack developer with expertise in the MERN stack, dedicated to creating
                         innovative web solutions that combine beautiful design with powerful functionality.
                     </p>
                 </div>
