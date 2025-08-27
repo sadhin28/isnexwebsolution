@@ -41,7 +41,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-gray-400 md:max-w-md text-sm md:text-xl text-muted-foreground max-w-3xl animate-fade-in-up animate-delay-200 ">
-            Crafting seamless full-stack experiences with MongoDB,Express.js, React, and Node.js
+            Crafting seamless Mern-stack experiences with MongoDB,Express.js, React, and Node.js
           </p>
         </div>
       </div>
