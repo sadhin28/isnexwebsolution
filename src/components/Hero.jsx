@@ -7,7 +7,7 @@ const Hero = () => {
   const handleClick = () => {
     // Open Google Drive link in a new tab
     window.open(
-      'https://drive.google.com/file/d/16k1F98nn2ccaCO5k7LC5Cm0Lq5hnyAs_/view?usp=sharing',
+      'https://drive.google.com/file/d/1qJoCXBt4DpfUogSTnU9ocZ-w6cAQmYTK/view',
       '_blank'
     );
   };
