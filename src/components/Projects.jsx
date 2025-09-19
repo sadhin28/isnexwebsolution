@@ -58,7 +58,7 @@ const Projects = () => {
     ];
     return (
         <section id="projects" className="py-20 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-7xl mx-auto">
+            <div className="max-w-7xl mx-auto ">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 animate-fade-in-up">
                         Featured <span className="text-green-500">Projects</span>
@@ -68,25 +68,25 @@ const Projects = () => {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, index) => (
                         <div
                             key={index}
-                            className="group bg-gray-500/10 overflow-hidden border border-border hover:border-green-600/50 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl animate-fade-in-up rounded-lg"
+                            className="flex flex-col group bg-gray-500/10 overflow-hidden border border-border hover:border-green-600/50 transition-all duration-300 hover:scale-[1.02] hover:shadow-2xl animate-fade-in-up rounded-lg"
                             style={{ animationDelay: `${index * 0.1}s` }}
                         >
                             {/* Project Image/Gradient */}
 
-                            <div className={`h-48  relative overflow-hidden`}>
+                            <div className={`flex-grow relative overflow-hidden`}>
 
-                                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-300">
+                                <div className="inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-300">
                                     <img src={project.image} className='' alt="" />
                                 </div>
 
                             </div>
 
                             {/* Project Content */}
-                            <div className="p-6 space-y-4">
+                            <div className="px-6 py-6 space-y-4">
                                 <h3 className="text-xl font-semibold group-hover:text-primary transition-colors duration-300">
                                     {project.title}
                                 </h3>
@@ -107,7 +107,7 @@ const Projects = () => {
                                 </div>
 
                                 {/* Action Buttons */}
-                                <div className="flex gap-3 pt-4">
+                                <div className="flex gap-3 pt-4 flex-wrap">
                                     <ReactiveButton outline
                                         className='rounded'
                                         color="green"
