@@ -6,6 +6,14 @@ import ReactiveButton from 'reactive-button';
 const Projects = () => {
     const projects = [
         {
+            title: "University Management System",
+            description: "University Management System – A MERN stack web app built with React, TailwindCSS, React Router, Node.js, Express.js, and MongoDB, integrated with Firebase Authentication for secure user management. Features include student enrollment, results, class schedules, payments, role-based dashboards (Admin/Teacher/Student), and PDF report generation using jsPDF.",
+            technologies: ["React", "TailwindCss", "Node.js", "MongoDB", "React Router", "Firebase", "jsPDF","express.js"],
+            githubUrl: "https://github.com/sadhin28/university-management-system",
+            liveUrl: "https://university-management-sy-dc929.web.app",
+            image: "https://i.ibb.co.com/PsjmsQPL/Screenshot-2025-09-20-015449.png"
+        },
+        {
             title: "Job Portal",
             description: "A comprehensive job portal platform designed to enable seamless interaction between job seekers and employers. The system provides full CRUD operations for managing job postings, secure authentication, and a streamlined job application process.",
             technologies: ["React", "TailwindCss", "Node.js", "MongoDB", "React Router", "Firebase"],
@@ -38,14 +46,6 @@ const Projects = () => {
             githubUrl: "https://github.com/sadhin28/My-Dragon-News",
             liveUrl: "https://dragon-news-9c86c.web.app/",
             image: "https://i.ibb.co.com/KxhzFcPK/Screenshot-2025-08-13-170053.png"
-        },
-        {
-            title: "Peddy Project",
-            description: "A user-friendly online platform that connects loving homes with pets in need. Browse available cats, dogs, and other animals, learn their stories, and apply for adoption—all in one place. Making pet adoption easier, safer, and more compassionate.",
-            technologies: ["Html", "TaolwindCss", "JavaScript", "DaisyUi"],
-            githubUrl: "https://github.com/sadhin28/A6-peddy-project",
-            liveUrl: "https://a6-peddy-project.vercel.app/",
-            image: "https://i.ibb.co.com/HT5jCNmv/Screenshot-2025-08-13-171410.png"
         },
         {
             title: "Donate Bangladesh",
