@@ -38,7 +38,7 @@ const Footer = () => {
                                             element.scrollIntoView({ behavior: 'smooth' });
                                         }
                                     }}
-                                    className="text-muted-foreground hover:text-foreground transition-colors text-left"
+                                    className="text-muted-foreground hover:text-green-600 hover:text-foreground transition-colors text-left"
                                 >
                                     {link}
                                 </button>
