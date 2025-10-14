@@ -35,7 +35,10 @@ const Navbar = () => {
                     element.scrollIntoView({ behavior: 'smooth' });
                   }
                 }}
-                className="text-white-800 text-xl hover:underline hover:underline-offset-4 decoration-transparent hover:decoration-green-500 transition-colors duration-700"
+               className="relative text-white text-xl transition-colors duration-700 
+after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 
+after:bg-green-500 after:transition-all after:duration-700 after:ease-in-out hover:after:w-full"
+
               >
                 {link.name}
               </button>
