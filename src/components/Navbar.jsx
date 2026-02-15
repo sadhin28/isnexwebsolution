@@ -39,11 +39,9 @@ const Navbar = () => {
     <nav className="fixed text-white top-0 w-full z-50 backdrop-blur-lg">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-1 px-4">
         <div className="flex justify-between h-16 items-center">
+          <div className="">
+            <img className="w-100% h-12" src="/src/assets/isnexwebsolutionlogo.png" alt="logo" />
           {/* Logo */}
-          <div className="flex-shrink-0 text-2xl font-bold text-blue-600">
-            <h1 className="text-white font-bold">
-              T.B <span className="text-green-500">SA<span>DH</span>IN</span>
-            </h1>
           </div>
 
           {/* Desktop Menu */}
@@ -59,8 +57,8 @@ const Navbar = () => {
                 }}
                 className={`relative text-xl transition-colors duration-700
                   after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0
-                  after:bg-green-500 after:transition-all after:duration-700 after:ease-in-out hover:after:w-full
-                  ${activeSection === link.name.toLowerCase() ? "text-green-500" : "text-white"}`}
+                  after:bg-[#26b0f0] after:transition-all after:duration-700 after:ease-in-out hover:after:w-full
+                  ${activeSection === link.name.toLowerCase() ? "text-[#26b0f0]" : "text-white"}`}
               >
                 {link.name}
               </button>
@@ -91,8 +89,8 @@ const Navbar = () => {
                   }
                 }}
                 className={`block w-full text-start p-2 font-bold transition
-                  hover:rounded-xl hover:border hover:border-green-500
-                  ${activeSection === link.name.toLowerCase() ? "text-green-500" : "text-white"}`}
+                  hover:rounded-xl hover:border hover:border-[#26b0f0]
+                  ${activeSection === link.name.toLowerCase() ? "text-[#26b0f0]" : "text-white"}`}
               >
                 {link.name}
               </button>

@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-     <div className='bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white'>
+     <div className='bg-gradient-to-br from-[#101521] via-[#101521] to-[#101521] text-white'>
        <Navbar></Navbar>
        <Hero></Hero>
        <About></About>

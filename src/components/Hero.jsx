@@ -25,24 +25,21 @@ const Hero = () => {
       <div className="mt-20 md:mt-20 md:w-1/2 text-center md:text-left">
         <div className="space-y-4">
           <h1 className="md:text-xl lg:text-4xl font-bold leading-tight animate-fade-in-up">
-            Hi, I Am &nbsp;
+            &nbsp;
             <TypeAnimation
               sequence={[
-                "Taosif Bin Sadhin",
-                2000,
-                "A MERN Stack Web Developer",
-                2000,
+                "We Build Stunning Websites That Convert",
+                2000
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              className="text-green-500"
+              className="text-[#26b0f0]"
             />
           </h1>
 
-          <p className="text-gray-400 md:max-w-md text-sm md:text-xl text-muted-foreground max-w-3xl animate-fade-in-up animate-delay-200 ">
-            Crafting seamless Mern-stack experiences with MongoDB,Express.js, React, and Node.js
-          </p>
+          <p className="text-gray-400 md:max-w-md text-sm md:text-xl text-muted-foreground max-3xl ">
+            Professional Web Design & Development Agency</p>
         </div>
       </div>
 
