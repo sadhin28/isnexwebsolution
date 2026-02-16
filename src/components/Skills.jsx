@@ -46,6 +46,7 @@ const Skills = () => {
     <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
+            <h1 className="text-center pb-2 text-blue-500">What We Do</h1>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 animate-fade-in-up">
             Our <span className="text-blue-500">Services</span>
           </h2>
