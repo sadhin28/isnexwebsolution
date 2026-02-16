@@ -2,7 +2,6 @@ import { Linkedin, Mail } from "lucide-react";
 import { GrGithub } from "react-icons/gr";
 import { TypeAnimation } from "react-type-animation";
 import ReactiveButton from "reactive-button";
-import profileImg from '../assets/sadhin.jpg'
 const Hero = () => {
   const handleClick = () => {
     // Open Google Drive link in a new tab
@@ -20,8 +19,8 @@ const Hero = () => {
   };
   return (
     <div id="home" className="">
-       <div className="py-10">
-        <h1 className="text-1xl text-center text-blue-500 pt-40 pb-5">Is.Nex Web Solution</h1>
+       <div className="md:py-10">
+        <h1 className="text-1xl text-center text-blue-500 md:pt-40 pt-32  pb-5">Is.Nex Web Solution</h1>
         <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold text-center justify-center">We Build Stunning <br />Websites That Convert</h2>
         <h1 className="text-xl text-center text-gray-400 pt-5 ">Professional Web Design & Development Agency</h1>
        </div>
