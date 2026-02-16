@@ -7,7 +7,7 @@ const Hero = () => {
   const handleClick = () => {
     // Open Google Drive link in a new tab
     window.open(
-      'https://drive.google.com/file/d/12gSCvxHNlnV9TtDrJ3bmap7_QOcsWVbn/view?usp=sharing',
+      'https://www.fiverr.com/s/kLEQDyy',
       '_blank'
     );
   };
@@ -20,21 +20,22 @@ const Hero = () => {
   };
   return (
     <div id="home" className="">
-       <div className="">
+       <div className="py-10">
         <h1 className="text-1xl text-center text-blue-500 pt-40 pb-5">Is.Nex Web Solution</h1>
         <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold text-center justify-center">We Build Stunning <br />Websites That Convert</h2>
+        <h1 className="text-xl text-center text-gray-400 pt-5 ">Professional Web Design & Development Agency</h1>
        </div>
        <div className="flex mt-10 sm:flex-row gap-20 justify-center items-center animate-fade-in-up animate-delay-400 ">
           <ReactiveButton outline
            onClick={()=>scrollToSection('projects')}  
-          color="green"
-          idleText=' View My Work'
+          color="blue"
+          idleText='View Portfolio'
           size="lerge"
           />
           <ReactiveButton
           onClick={handleClick}
           color="yellow"
-          idleText='Download CV'
+          idleText='Hire on Fiverr'
           size="lerge"
           />
             
@@ -46,7 +47,7 @@ const Hero = () => {
               href="https://github.com/sadhin28" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="p-3 bg-card hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110 border border-border hover:border-green-500"
+              className="p-3 bg-card hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110 border border-border hover:border-blue-500"
             >
               <GrGithub className="h-6 w-6" />
             </a>
@@ -54,13 +55,13 @@ const Hero = () => {
               href="https://www.linkedin.com/in/taosif-bin-sadhin-527899368?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="p-3 bg-card hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110 border border-border hover:border-green-500"
+              className="p-3 bg-card hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110 border border-border hover:border-blue-500"
             >
               <Linkedin className="h-6 w-6" />
             </a>
             <button 
               onClick={()=>scrollToSection('contact')} 
-              className="p-3 bg-card hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110 border border-border hover:border-green-500"
+              className="p-3 bg-card hover:bg-primary/20 rounded-full transition-all duration-300 hover:scale-110 border border-border hover:border-blue-500"
             >
               <Mail className="h-6 w-6" />
             </button>
