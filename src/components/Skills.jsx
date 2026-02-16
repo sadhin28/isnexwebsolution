@@ -4,41 +4,6 @@ import { FaSearchengin, FaUikit, FaWix } from "react-icons/fa";
 import { FaPersonDotsFromLine, FaSection, FaSourcetree } from "react-icons/fa6";
 
 const Skills = () => {
-  const skillCategories = [
-    {
-      title: "Frontend",
-      skills: [
-        { name: "React", level: 95 },
-        { name: "JavaScript", level: 92 },
-        { name: "TypeScript", level: 88 },
-        { name: "HTML/CSS", level: 95 },
-        { name: "Tailwind CSS", level: 90 },
-        { name: "Next.js", level: 85 },
-      ],
-    },
-    {
-      title: "Backend",
-      skills: [
-        { name: "Node.js", level: 90 },
-        { name: "Express.js", level: 92 },
-        { name: "RESTful APIs", level: 88 },
-        { name: "GraphQL", level: 75 },
-        { name: "Authentication", level: 85 },
-        { name: "Middleware", level: 88 },
-      ],
-    },
-    {
-      title: "Database & Tools",
-      skills: [
-        { name: "MongoDB", level: 90 },
-        { name: "Mongoose", level: 88 },
-        { name: "Git/GitHub", level: 92 },
-        { name: "VS Code", level: 95 },
-        { name: "Postman", level: 85 },
-        { name: "Docker", level: 70 },
-      ],
-    },
-  ];
   const services = [
     {
       icon: <Globe className="h-8 w-8" />,
@@ -78,15 +43,14 @@ const Skills = () => {
     },
   ];
   return (
-    <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
+    <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 animate-fade-in-up">
             Our <span className="text-blue-500">Services</span>
           </h2>
           <p className="text-xl text-gray-400 text-muted-foreground max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
-            A comprehensive toolkit for building modern web applications from
-            frontend to backend
+            End-to-end web solutions to bring your vision to life.
           </p>
         </div>
 

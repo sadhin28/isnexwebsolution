@@ -8,20 +8,20 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
+    { name: "Services", href: "#services" }, // 🔥 capital S fixed
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
   ];
 
   useEffect(() => {
     const handleScroll = () => {
-      // Loop through sections and check which is currently visible
       navLinks.forEach((link) => {
         const section = document.getElementById(link.name.toLowerCase());
         if (section) {
-          const top = section.offsetTop - 80; // adjust for navbar height
+          const top = section.offsetTop - 80;
           const bottom = top + section.offsetHeight;
           const scroll = window.scrollY;
+
           if (scroll >= top && scroll < bottom) {
             setActiveSection(link.name.toLowerCase());
           }
@@ -30,18 +30,23 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // initialize on load
+    handleScroll();
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
-    <nav className="fixed text-white top-0 w-full z-50 backdrop-blur-lg">
+    <nav className="fixed text-white top-0 w-full z-50 backdrop-blur-lg bg-black/40">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-1 px-4">
         <div className="flex justify-between h-16 items-center">
-          <div className="">
-            <img className="w-100% h-12" src="/src/assets/isnexwebsolutionlogo.png" alt="logo" />
+
           {/* Logo */}
+          <div>
+            <img
+              className="w-full h-12 object-contain" // ❌ w-100% নেই Tailwind এ
+              src="/src/assets/isnexwebsolutionlogo.png"
+              alt="logo"
+            />
           </div>
 
           {/* Desktop Menu */}
@@ -76,7 +81,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden shadow-lg">
+        <div className="md:hidden shadow-lg bg-black/80 backdrop-blur-lg">
           <div className="px-2 pt-2 pb-3 space-y-1">
             {navLinks.map((link) => (
               <button
