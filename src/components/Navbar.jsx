@@ -43,7 +43,7 @@ const Navbar = () => {
           {/* Logo */}
           <div>
             <img
-              className="w-full h-12 object-contain" // ❌ w-100% নেই Tailwind এ
+              className="w-full h-12 object-contain" 
               src="/src/assets/isnexwebsolutionlogo.png"
               alt="logo"
             />

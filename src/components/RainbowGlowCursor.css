@@ -1,5 +1,5 @@
 .glow-bg {
-  background: radial-gradient(120px at var(--x) var(--y), rgba(0,200,255,0.3), transparent 80%);
+  background: radial-gradient(120px at var(--x) var(--y), rgba(0,200,255,0.3), transparent 40%);
   animation: rainbowGlow 8s ease-in-out infinite;
   transition: background 0.05s linear;
 }
@@ -7,36 +7,36 @@
 /* 10-color rainbow animation */
 @keyframes rainbowGlow {
   0% {
-    background: radial-gradient(120px at var(--x) var(--y), rgba(0,200,255,0.3), transparent 80%);
+    background: radial-gradient(120px at var(--x) var(--y), rgba(0,200,255,0.3), transparent 40%);
   }
   10% {
-    background: radial-gradient(120px at var(--x) var(--y), rgba(255,0,200,0.3), transparent 80%);
+    background: radial-gradient(120px at var(--x) var(--y), rgba(255,0,200,0.3), transparent 40%);
   }
   20% {
-    background: radial-gradient(120px at var(--x) var(--y), rgba(255,100,0,0.3), transparent 80%);
+    background: radial-gradient(120px at var(--x) var(--y), rgba(255,100,0,0.3), transparent 40%);
   }
   30% {
-    background: radial-gradient(120px at var(--x) var(--y), rgba(255,255,0,0.3), transparent 80%);
+    background: radial-gradient(120px at var(--x) var(--y), rgba(255,255,0,0.3), transparent 40%);
   }
   40% {
-    background: radial-gradient(120px at var(--x) var(--y), rgba(0,255,0,0.3), transparent 80%);
+    background: radial-gradient(120px at var(--x) var(--y), rgba(0,255,0,0.3), transparent 40%);
   }
   50% {
-    background: radial-gradient(120px at var(--x) var(--y), rgba(0,255,255,0.3), transparent 80%);
+    background: radial-gradient(120px at var(--x) var(--y), rgba(0,255,255,0.3), transparent 40%);
   }
   60% {
-    background: radial-gradient(120px at var(--x) var(--y), rgba(0,0,255,0.3), transparent 80%);
+    background: radial-gradient(120px at var(--x) var(--y), rgba(0,0,255,0.3), transparent 40%);
   }
   70% {
-    background: radial-gradient(120px at var(--x) var(--y), rgba(150,0,255,0.3), transparent 80%);
+    background: radial-gradient(120px at var(--x) var(--y), rgba(150,0,255,0.3), transparent 40%);
   }
   80% {
-    background: radial-gradient(120px at var(--x) var(--y), rgba(255,0,100,0.3), transparent 80%);
+    background: radial-gradient(120px at var(--x) var(--y), rgba(255,0,100,0.3), transparent 40%);
   }
   90% {
-    background: radial-gradient(120px at var(--x) var(--y), rgba(255,150,50,0.3), transparent 80%);
+    background: radial-gradient(120px at var(--x) var(--y), rgba(255,150,50,0.3), transparent 40%);
   }
   100% {
-    background: radial-gradient(120px at var(--x) var(--y), rgba(0,200,255,0.3), transparent 80%);
+    background: radial-gradient(120px at var(--x) var(--y), rgba(0,200,255,0.3), transparent 40%);
   }
 }
